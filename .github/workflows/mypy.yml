@@ -13,6 +13,6 @@ jobs:
       with:
         python-version: '3.x'
     - name: Install dependencies
-      run: pip install mypy=1.10
+      run: pip install mypy==1.10
     - name: mypy
       run: mypy infezione
